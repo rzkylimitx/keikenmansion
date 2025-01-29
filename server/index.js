@@ -1,4 +1,4 @@
-import fs from "fs";
+import fs, { appendFile } from "fs";
 import pathfinding from "pathfinding";
 import { Server } from "socket.io";
 
